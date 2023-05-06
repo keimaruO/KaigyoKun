@@ -25,7 +25,7 @@ def reformat_srt(input_file, output_file, max_chars):
 
 
 if __name__ == "__main__":
-    input_file = "E:\\output\\temp_2_kaigyo.srt"
-    output_file = "E:\\output\\temp_2_kaigyo_output.srt"
+    input_file = "E:\\output\\temp_2_kaigyo.srt" #入力値
+    output_file = "E:\\output\\temp_2_kaigyo_output.srt" #出力値    左に正しいファイルパスを入力する \\を2つにしたほうが汎用性高い
     max_chars = 18 #左の数字で何文字で改行するかを指定する。
     reformat_srt(input_file, output_file, max_chars)
